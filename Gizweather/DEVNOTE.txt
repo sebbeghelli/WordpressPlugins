@@ -1,0 +1,9 @@
+GIZWEATHER V1.0
+
+The GIZWEATHER plugin has been tested on a 3.8.1 Wordpress version and with Twenty Twelve and Twenty Thirteen themes.
+
+It works with the worldweatheronline.com API and can be complete with other weather information. Visit the dedicated page (http://developer.worldweatheronline.com/io-docs) to check all the XML (or JSON) elements that can be extracted.
+Currently, the plugin works with the free WWO API.
+
+Issue :
+Adding Costum Fields in the search system worked well. However, there is still an issue with the "s" term, which is set to "" (empty) in the custom_search_query function and doesn't show on the search result page (Page title,...).
