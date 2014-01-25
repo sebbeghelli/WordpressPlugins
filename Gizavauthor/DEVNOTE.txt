@@ -1,0 +1,7 @@
+GIZAVAUTHOR V1.0
+
+The GIZAVAUTHOR plugin has been tested on a 3.8.1 Wordpress version and with Twenty Twelve and Twenty Thirteen themes.
+
+IMPORTANT :
+
+The widget just show the author's avatar in a post page. (see at line 196 - function widget). It has been coded for a basic wordpress theme with an unique widget menu (column) for every page. For more advanced theme with dedicated widget area for posts, it might cause an issue in certain circumstances. Just quit the is_single condition then.
